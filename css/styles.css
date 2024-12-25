@@ -49,6 +49,9 @@ body {
     line-height: 0.93333;
     color: #173a56;
     margin-right: 237px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
   }
   
   .nav-list {
@@ -60,9 +63,13 @@ body {
     line-height: 1.75;
     padding: 26px 0;
     display: block;
+    
   }
   .current {
     font-weight: 600;
+    border-bottom: 4px solid #404BBF; 
+    border-radius: 2px;
+    color: #404BBF; 
   }
   .header-list-btn {
     display: flex;
